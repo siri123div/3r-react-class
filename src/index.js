@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Button from './Components/Button/button';
+import Form from  './Components/Forms/form';
+import Table from './Components/table/tables';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  
     <App />
+    <Button />
+    <Form />
+    <Table/>
   </React.StrictMode>
 );
 
